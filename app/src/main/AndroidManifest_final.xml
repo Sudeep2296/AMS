@@ -1,0 +1,27 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:name=".CMSApplication"
+        android:allowBackup="true"
+        android:label="AMS"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ui.admin.AdminDashboardActivityFixed"/>
+        <activity android:name=".ui.attendance.TeacherDashboardActivity"/>
+        <activity android:name=".ui.attendance.StudentResultActivity"/>
+        <activity android:name=".ui.attendance.StudentResultsActivity"/>
+        <activity android:name=".ui.attendance.TeacherAttendanceActivity"/>
+        <activity android:name=".ui.attendance.StudentAttendanceActivity"/>
+        <activity android:name=".ui.login.RegisterActivity"/>
+        <activity android:name=".ui.login.LoginActivity"/>
+        <activity android:name=".ui.login.MainActivity"/>
+        <activity
+            android:name=".ui.login.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+    </application>
+</manifest>

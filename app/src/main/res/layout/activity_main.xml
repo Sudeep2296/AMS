@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent"
+    android:gravity="center" android:padding="24dp">
+    <ImageView android:layout_width="120dp" android:layout_height="120dp" android:src="@drawable/college_logo" android:contentDescription="logo"/>
+    <Button android:id="@+id/btnTeacher" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="24dp" android:text="Login as Teacher"/>
+    <Button android:id="@+id/btnStudent" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Login as Student"/>
+    <Button android:id="@+id/btnAdmin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="12dp" android:text="Login as Admin"/>
+</LinearLayout>
